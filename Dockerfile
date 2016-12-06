@@ -3,4 +3,4 @@ MAINTAINER markus@jboss.org
 
 EXPOSE 8080 8888
 
-RUN curl https://raw.githubusercontent.com/myfear/OpenShiftDockerBuild/sample.war -o $JBOSS_HOME/standalone/deployments/sample.war
+RUN curl https://github.com/wael2000/war-docker-build/blob/master/sample.war -o $JBOSS_HOME/standalone/deployments/sample.war
