@@ -1,4 +1,5 @@
-FROM jboss-eap-6/eap64-openshift:latest
+FROM jboss-eap-6/jboss-eap64-openshift:1.4
+
 MAINTAINER wael@jboss.org
 
 EXPOSE 8080 8080
