@@ -1,5 +1,5 @@
-FROM jboss/wildfly:9.0.1.Final
-MAINTAINER markus@jboss.org
+FROM registry.access.redhat.com/jboss-eap-6/eap64-openshift:latest
+MAINTAINER wael@jboss.org
 
 EXPOSE 8080 8888
 
