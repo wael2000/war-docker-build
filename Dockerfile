@@ -1,4 +1,4 @@
-FROM jboss/wildfly:9.0.1.Final
+FROM jboss-eap64-openshift:1.4
 
 MAINTAINER wael@jboss.org
 
